@@ -1,0 +1,43 @@
+{
+  "name": "openhome",
+  "version": "0.0.1",
+  "description": "Open Home Custom Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:app": "nodemon -r dotenv/config app.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "eris",
+    "chariot",
+    "js"
+  ],
+  "author": "Velozity",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "8.0.21",
+    "ascii-table": "0.0.9",
+    "axios": "^0.19.2",
+    "bluebird": "^3.7.2",
+    "canvas": "^2.6.1",
+    "chariot.js": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "eris": "^0.14.0",
+    "eris-embed-builder": "^0.1.2",
+    "eris-pagination": "^0.5.1",
+    "eris-reactions": "^0.1.3",
+    "firebase-admin": "^9.4.1",
+    "grapheme-splitter": "^1.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "moment": "^2.29.1",
+    "node-html-to-image": "^3.1.0",
+    "node-storage": "0.0.9",
+    "redis": "^3.0.2",
+    "shelljs": "^0.8.4",
+    "uuid": "^8.2.0",
+    "winston": "^3.3.3"
+  }
+}

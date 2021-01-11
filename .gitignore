@@ -1,0 +1,13 @@
+.env
+/node_modules/*
+/logs/*
+about.png
+background.png
+crystal.png
+donate.png
+events.png
+introductions.png
+rules.png
+supportapps.png
+assets/img/welcome.jpg
+assets/img/cards/card1.jpg
